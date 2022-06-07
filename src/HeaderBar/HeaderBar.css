@@ -1,0 +1,23 @@
+.menu-bar {
+    padding: 25px;
+    justify-content: space-between;
+    background-color: #474b4f;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    overflow: hidden;
+    position: fixed;
+    z-index: 400;
+    display: flex;
+}
+
+.my-name {
+    font-family: "Open Sans", sans-serif;
+    font-size: 30px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-right: 100px;
+    color: white;
+    top: 4px;
+    -webkit-text-stroke: 1px black;
+}

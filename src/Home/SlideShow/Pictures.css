@@ -1,0 +1,30 @@
+.image {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+    margin-bottom: 100px;
+    max-width: 50%;
+    height: 600px;
+    border-radius: 10px;
+    animation-name: fade;
+    animation-duration: 4s;
+    object-fit: contain;
+    position: relative;
+    z-index: 200;
+}
+
+@keyframes fade {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+.background-img {
+    width: 100%;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    height: 100%;
+    position: fixed;
+    z-index: 100;
+}
