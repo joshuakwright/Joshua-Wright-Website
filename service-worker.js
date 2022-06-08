@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/Joshua-Wright-Website/precache-manifest.59b4235eca73d9adef8c90868b33eaa2.js"
+  "/joshua-wright-website/precache-manifest.49d410c27c231fde6ed899d65b90ab7f.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/Joshua-Wright-Website/index.html", {
+workbox.routing.registerNavigationRoute("/joshua-wright-website/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
