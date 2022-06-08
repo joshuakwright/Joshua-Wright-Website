@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "23f744f7210af42131cc",
+    "revision": "8d78191ec3350700e3bf",
     "url": "/Joshua-Wright-Website/static/css/main.a42e9c9a.chunk.css"
   },
   {
-    "revision": "23f744f7210af42131cc",
-    "url": "/Joshua-Wright-Website/static/js/main.23f744f7.chunk.js"
+    "revision": "8d78191ec3350700e3bf",
+    "url": "/Joshua-Wright-Website/static/js/main.8d78191e.chunk.js"
   },
   {
     "revision": "cfe34446b5b29ad3bdeb",
@@ -40,7 +40,7 @@ self.__precacheManifest = [
     "url": "/Joshua-Wright-Website/static/media/Mountains.f06a27f7.jpg"
   },
   {
-    "revision": "75f5459681b5c83048b6b3e0796f3da2",
+    "revision": "fd29009f14118b25af8101f4705ce583",
     "url": "/Joshua-Wright-Website/index.html"
   }
 ];
