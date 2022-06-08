@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/joshua-wright-website/precache-manifest.5d0572e5df19ff12281d45cc741b0c15.js"
+  "/joshua-wright-website/precache-manifest.e8d8da45eb52ccb6a121cb671e4853db.js"
 );
 
 workbox.clientsClaim();
