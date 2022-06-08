@@ -23,9 +23,9 @@ function App() {
   return (
     <div>
       <Routes>
-        <Route path='/' element={ <Home/> } />
+        <Route path='/*' element={ <Home/> } />
         <Route path='proexp' element={ <ProExp/> }>
-          <Route index element={ <ProExp/> } />
+          <Route index element={ <Cisco/> } />
           <Route path='cisco' element={ <Cisco/> }/>
           <Route path='pilot' element={ <Pilot/> }/>
           <Route path='parke' element={ <Parke/> }/>
@@ -33,13 +33,13 @@ function App() {
           <Route path='*' element={ <Error/> } />
         </Route>
         <Route path='education' element={ <Education/> }> 
-          <Route index element={ <Education/> } />
+          <Route index element={ <UTK/> } />
           <Route path='utk' element={ <UTK/> }/>
           <Route path='cpa' element={ <CPA/> }/>
           <Route path='*' element={ <Error/> } />
         </Route>
         <Route path='projects' element={ <Projects/> }>
-          <Route index element={ <Projects/> } />
+          <Route index element={ <Project1/> } />
           <Route path='project1' element={ <Project1/> }/>
           <Route path='project2' element={ <Project2/> }/>
           <Route path='project3' element={ <Project3/> }/>
