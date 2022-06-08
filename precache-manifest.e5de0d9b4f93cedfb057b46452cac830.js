@@ -1,15 +1,15 @@
 self.__precacheManifest = [
   {
-    "revision": "cddc0863cee09c1e51bf",
-    "url": "/joshua-wright-website/static/css/main.a42e9c9a.chunk.css"
+    "revision": "ac8b7ea5a48298546971",
+    "url": "/joshua-wright-website/static/css/main.c5e3d7c2.chunk.css"
   },
   {
-    "revision": "cddc0863cee09c1e51bf",
-    "url": "/joshua-wright-website/static/js/main.cddc0863.chunk.js"
+    "revision": "ac8b7ea5a48298546971",
+    "url": "/joshua-wright-website/static/js/main.ac8b7ea5.chunk.js"
   },
   {
-    "revision": "ca82a5a07d3386ca0ee3",
-    "url": "/joshua-wright-website/static/js/1.ca82a5a0.chunk.js"
+    "revision": "f859fa02ee63e1fde4c0",
+    "url": "/joshua-wright-website/static/js/1.f859fa02.chunk.js"
   },
   {
     "revision": "3e1ef1c14657429b023d",
@@ -40,7 +40,23 @@ self.__precacheManifest = [
     "url": "/joshua-wright-website/static/media/Mountains.f06a27f7.jpg"
   },
   {
-    "revision": "480acf25693fe9bdf1c9eeee4fbe72cd",
+    "revision": "08d89a4f532ea5ad7efe5eb63a4bf49f",
+    "url": "/joshua-wright-website/static/media/tempimg3.08d89a4f.jpg"
+  },
+  {
+    "revision": "013a2d61017424cf179603422856bf5a",
+    "url": "/joshua-wright-website/static/media/pinkmountians.013a2d61.jpg"
+  },
+  {
+    "revision": "396bd7e4404d9d5a2999e1ca490d1c43",
+    "url": "/joshua-wright-website/static/media/tempimg.396bd7e4.jpg"
+  },
+  {
+    "revision": "07a040a8d015bcf3902517d00f70a932",
+    "url": "/joshua-wright-website/static/media/tempimg2.07a040a8.jpg"
+  },
+  {
+    "revision": "1d20a2cbdd3d2cc96c5a6f0c15ef671a",
     "url": "/joshua-wright-website/index.html"
   }
 ];
