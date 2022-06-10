@@ -1,17 +1,31 @@
 import React, { useState, useEffect } from 'react'
-import flex from './Images/flex.jpg'
-import pilot from './Images/PilotWorkPhoto.jpg'
-import me from './Images/English102Class.jpg'
-import english from './Images/ProfilePic.jpg'
-import mountains from './Images/Mountains.jpg'
+import Pilot from './Images/PilotWorkPhoto.jpg'
+import English from './Images/English102Class.jpg'
+import Mountains from './Images/HomeBackground.jpg'
+import CanyonFriends from './Images/CanyonFriends.jpg'
+import Fraternity from './Images/Fraternity.png'
+import Glacier from './Images/Glacier.jpg'
+import ParkeWLizard from './Images/ParkeWLizard.jpg'
+import ParkeWNato from './Images/ParkeWNato.jpg'
+import RomeFam from './Images/RomeFam.jpg'
+import RomeFriends from './Images/RomeFriends.jpg'
+import UTKFriends from './Images/UTKFriends.jpg'
+import Venice from './Images/Venice.jpg'
 import './Pictures.css'
 
 export default function Pictures() {
     const ImageData = [
-        { id: 1, name: flex }, 
-        { id: 2, name: pilot }, 
-        { id: 3, name: me }, 
-        { id: 4, name: english }
+        { id: 1, name: Pilot }, 
+        { id: 2, name: UTKFriends }, 
+        { id: 3, name: CanyonFriends },
+        { id: 4, name: Fraternity },
+        { id: 5, name: Glacier },
+        { id: 6, name: RomeFriends },
+        { id: 7, name: ParkeWNato },
+        { id: 8, name: RomeFam },
+        { id: 9, name: ParkeWLizard },
+        { id: 10, name: English },
+        { id: 11, name: Venice }
     ];
     const [place, ChangeImage] = useState(0);
     const length = ImageData.length;
@@ -24,7 +38,7 @@ export default function Pictures() {
 
     return (
         <div>
-            <img className='background-img' src={mountains} alt='Missing'></img>
+            <img className='background-img' src={Mountains} alt='Missing'></img>
             <div>
                 {ImageData.map((image, index) => {
                     return (
