@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "f93eeea5ac8865ed4bea",
-    "url": "/joshua-wright-website/static/css/main.fc3b17f6.chunk.css"
+    "revision": "65a5849eb2cd280b8b4a",
+    "url": "/joshua-wright-website/static/css/main.6f7fcd17.chunk.css"
   },
   {
-    "revision": "f93eeea5ac8865ed4bea",
-    "url": "/joshua-wright-website/static/js/main.f93eeea5.chunk.js"
+    "revision": "65a5849eb2cd280b8b4a",
+    "url": "/joshua-wright-website/static/js/main.65a5849e.chunk.js"
   },
   {
     "revision": "01d3088411cc8a7890f9",
@@ -72,19 +72,19 @@ self.__precacheManifest = [
     "url": "/joshua-wright-website/static/media/tempimg3.08d89a4f.jpg"
   },
   {
-    "revision": "013a2d61017424cf179603422856bf5a",
-    "url": "/joshua-wright-website/static/media/pinkmountians.013a2d61.jpg"
-  },
-  {
-    "revision": "396bd7e4404d9d5a2999e1ca490d1c43",
-    "url": "/joshua-wright-website/static/media/tempimg.396bd7e4.jpg"
-  },
-  {
     "revision": "07a040a8d015bcf3902517d00f70a932",
     "url": "/joshua-wright-website/static/media/tempimg2.07a040a8.jpg"
   },
   {
-    "revision": "7344c3b1918a683394f374dff8cfbff1",
+    "revision": "4e8d2cce9b45d8546eb5a3fff527078d",
+    "url": "/joshua-wright-website/static/media/UTKFam.4e8d2cce.jpg"
+  },
+  {
+    "revision": "a25fa1b23c1b14a983e3360dd4d6c65d",
+    "url": "/joshua-wright-website/static/media/CPA.a25fa1b2.jpg"
+  },
+  {
+    "revision": "ffd43645342fc18ac1ffe504b7df29a8",
     "url": "/joshua-wright-website/index.html"
   }
 ];

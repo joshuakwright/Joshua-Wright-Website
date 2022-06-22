@@ -1,7 +1,7 @@
 {
-  "main.css": "/joshua-wright-website/static/css/main.fc3b17f6.chunk.css",
-  "main.js": "/joshua-wright-website/static/js/main.f93eeea5.chunk.js",
-  "main.js.map": "/joshua-wright-website/static/js/main.f93eeea5.chunk.js.map",
+  "main.css": "/joshua-wright-website/static/css/main.6f7fcd17.chunk.css",
+  "main.js": "/joshua-wright-website/static/js/main.65a5849e.chunk.js",
+  "main.js.map": "/joshua-wright-website/static/js/main.65a5849e.chunk.js.map",
   "static/js/1.01d30884.chunk.js": "/joshua-wright-website/static/js/1.01d30884.chunk.js",
   "static/js/1.01d30884.chunk.js.map": "/joshua-wright-website/static/js/1.01d30884.chunk.js.map",
   "runtime~main.js": "/joshua-wright-website/static/js/runtime~main.3e1ef1c1.js",
@@ -20,11 +20,11 @@
   "static/media/UTKFriends.jpg": "/joshua-wright-website/static/media/UTKFriends.3947a06a.jpg",
   "static/media/Venice.jpg": "/joshua-wright-website/static/media/Venice.4fe76d56.jpg",
   "static/media/tempimg3.jpg": "/joshua-wright-website/static/media/tempimg3.08d89a4f.jpg",
-  "static/media/pinkmountians.jpg": "/joshua-wright-website/static/media/pinkmountians.013a2d61.jpg",
-  "static/media/tempimg.jpg": "/joshua-wright-website/static/media/tempimg.396bd7e4.jpg",
   "static/media/tempimg2.jpg": "/joshua-wright-website/static/media/tempimg2.07a040a8.jpg",
-  "static/css/main.fc3b17f6.chunk.css.map": "/joshua-wright-website/static/css/main.fc3b17f6.chunk.css.map",
+  "static/media/UTKFam.jpg": "/joshua-wright-website/static/media/UTKFam.4e8d2cce.jpg",
+  "static/media/CPA.jpg": "/joshua-wright-website/static/media/CPA.a25fa1b2.jpg",
+  "static/css/main.6f7fcd17.chunk.css.map": "/joshua-wright-website/static/css/main.6f7fcd17.chunk.css.map",
   "index.html": "/joshua-wright-website/index.html",
-  "precache-manifest.b8f8a9e148a737c064b8621215b25232.js": "/joshua-wright-website/precache-manifest.b8f8a9e148a737c064b8621215b25232.js",
+  "precache-manifest.ba259e27bc014e18b77456d279b375d3.js": "/joshua-wright-website/precache-manifest.ba259e27bc014e18b77456d279b375d3.js",
   "service-worker.js": "/joshua-wright-website/service-worker.js"
 }
