@@ -5,52 +5,15 @@ import temp from './tempimg2.jpg'
 export default function DeliveryDudes() {
   return (
     <div>
-      <img className='picture' src={temp} alt='Missing' />
-      <span className='company'>Delivery Dudes</span>
-      <div className='paragraph'>
+      <img className='dd-picture' src={temp} alt='Missing' />
+      <span className='dd-company'>Delivery Dudes</span>
+      <div className='dd-paragraph'>
         <p>
-          However little known the feelings or views of such a man may be on his
-          first entering a neighbourhood, this truth is so well fixed in the minds
-          of the surrounding families, that he is considered as the rightful property
-          of some one or other of their daughters.
-          However little known the feelings or views of such a man may be on his
-          first entering a neighbourhood, this truth is so well fixed in the minds
-          of the surrounding families, that he is considered as the rightful property
-          of some one or other of their daughters.
-          However little known the feelings or views of such a man may be on his
-          first entering a neighbourhood, this truth is so well fixed in the minds
-          of the surrounding families, that he is considered as the rightful property
-          of some one or other of their daughters.
-          However little known the feelings or views of such a man may be on his
-          first entering a neighbourhood, this truth is so well fixed in the minds
-          of the surrounding families, that he is considered as the rightful property
-          of some one or other of their daughters.
-          However little known the feelings or views of such a man may be on his
-          first entering a neighbourhood, this truth is so well fixed in the minds
-          of the surrounding families, that he is considered as the rightful property
-          of some one or other of their daughters.
-        </p>
-        <p>
-          However little known the feelings or views of such a man may be on his
-          first entering a neighbourhood, this truth is so well fixed in the minds
-          of the surrounding families, that he is considered as the rightful property
-          of some one or other of their daughters.
-          However little known the feelings or views of such a man may be on his
-          first entering a neighbourhood, this truth is so well fixed in the minds
-          of the surrounding families, that he is considered as the rightful property
-          of some one or other of their daughters.
-          However little known the feelings or views of such a man may be on his
-          first entering a neighbourhood, this truth is so well fixed in the minds
-          of the surrounding families, that he is considered as the rightful property
-          of some one or other of their daughters.
-          However little known the feelings or views of such a man may be on his
-          first entering a neighbourhood, this truth is so well fixed in the minds
-          of the surrounding families, that he is considered as the rightful property
-          of some one or other of their daughters.
-          However little known the feelings or views of such a man may be on his
-          first entering a neighbourhood, this truth is so well fixed in the minds
-          of the surrounding families, that he is considered as the rightful property
-          of some one or other of their daughters.
+          This was my first job, and it was fairly simple. I was 
+          a food delivery person. I would receive an order, pick 
+          up the food from a restaurant, check to make sure the 
+          food matched what was on the order, calculate the correct 
+          tax, and deliver it to the customer. 
         </p>
       </div>
     </div>

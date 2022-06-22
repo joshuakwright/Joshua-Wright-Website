@@ -1,56 +1,20 @@
 import React from 'react'
 import './CPA.css'
-import temp from './tempimg2.jpg'
+import CPAPic from './CPA.jpg'
 
 export default function CPA() {
   return (
     <div>
-      <img className='picture' src={temp} alt='Missing' />
-      <span className='company'>Christ Presbyterian Academy</span>
-      <div className='paragraph'>
+      <img className='cpa-picture' src={CPAPic} alt='Missing' />
+      <span className='cpa-school'>Christ Presbyterian Academy</span>
+      <div className='cpa-paragraph'>
         <p>
-          However little known the feelings or views of such a man may be on his
-          first entering a neighbourhood, this truth is so well fixed in the minds
-          of the surrounding families, that he is considered as the rightful property
-          of some one or other of their daughters.
-          However little known the feelings or views of such a man may be on his
-          first entering a neighbourhood, this truth is so well fixed in the minds
-          of the surrounding families, that he is considered as the rightful property
-          of some one or other of their daughters.
-          However little known the feelings or views of such a man may be on his
-          first entering a neighbourhood, this truth is so well fixed in the minds
-          of the surrounding families, that he is considered as the rightful property
-          of some one or other of their daughters.
-          However little known the feelings or views of such a man may be on his
-          first entering a neighbourhood, this truth is so well fixed in the minds
-          of the surrounding families, that he is considered as the rightful property
-          of some one or other of their daughters.
-          However little known the feelings or views of such a man may be on his
-          first entering a neighbourhood, this truth is so well fixed in the minds
-          of the surrounding families, that he is considered as the rightful property
-          of some one or other of their daughters.
-        </p>
-        <p>
-          However little known the feelings or views of such a man may be on his
-          first entering a neighbourhood, this truth is so well fixed in the minds
-          of the surrounding families, that he is considered as the rightful property
-          of some one or other of their daughters.
-          However little known the feelings or views of such a man may be on his
-          first entering a neighbourhood, this truth is so well fixed in the minds
-          of the surrounding families, that he is considered as the rightful property
-          of some one or other of their daughters.
-          However little known the feelings or views of such a man may be on his
-          first entering a neighbourhood, this truth is so well fixed in the minds
-          of the surrounding families, that he is considered as the rightful property
-          of some one or other of their daughters.
-          However little known the feelings or views of such a man may be on his
-          first entering a neighbourhood, this truth is so well fixed in the minds
-          of the surrounding families, that he is considered as the rightful property
-          of some one or other of their daughters.
-          However little known the feelings or views of such a man may be on his
-          first entering a neighbourhood, this truth is so well fixed in the minds
-          of the surrounding families, that he is considered as the rightful property
-          of some one or other of their daughters.
+          CPA is where I attended preschool, elementary school, middle school, 
+          and high school for 16 years. This is where I became an Eagle Scout 
+          and competed in mountain biking, cross country, track, and swimming. 
+          Here, I also took 13 AP classes, was a member of the National Honors 
+          Society (serving as an officer for one year), and was inducted into 
+          the Cum Laude society. 
         </p>
       </div>
     </div>

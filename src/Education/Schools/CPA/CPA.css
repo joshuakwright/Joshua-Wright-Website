@@ -1,6 +1,6 @@
-.picture {
+.cpa-picture {
     display: flex;
-    margin-left: 40%;
+    margin-left: 49%;
     margin-top: 150px;
     margin-bottom: 75px;
     max-width: 50%;
@@ -10,12 +10,12 @@
     z-index: 199;
 }
 
-.company {
+.cpa-school {
     font-size: 50px;
-    margin-left: 53%;
+    margin-left: 41%;
 }
 
-.paragraph {
+.cpa-paragraph {
     margin-top: 25px;
     text-align: left;
     margin-left: 25%;

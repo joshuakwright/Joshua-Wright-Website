@@ -1,56 +1,19 @@
 import React from 'react'
 import './UTK.css'
-import temp from './tempimg.jpg'
+import UTKPic from './UTKFam.jpg'
 
 export default function UTK() {
   return (
     <div>
-      <img className='picture' src={temp} alt='Missing' />
-      <span className='company'>University of Tennessee Knoxville</span>
-      <div className='paragraph'>
+      <img className='utk-picture' src={UTKPic} alt='Missing' />
+      <span className='utk-school'>University of Tennessee Knoxville</span>
+      <div className='utk-paragraph'>
         <p>
-          However little known the feelings or views of such a man may be on his
-          first entering a neighbourhood, this truth is so well fixed in the minds
-          of the surrounding families, that he is considered as the rightful property
-          of some one or other of their daughters.
-          However little known the feelings or views of such a man may be on his
-          first entering a neighbourhood, this truth is so well fixed in the minds
-          of the surrounding families, that he is considered as the rightful property
-          of some one or other of their daughters.
-          However little known the feelings or views of such a man may be on his
-          first entering a neighbourhood, this truth is so well fixed in the minds
-          of the surrounding families, that he is considered as the rightful property
-          of some one or other of their daughters.
-          However little known the feelings or views of such a man may be on his
-          first entering a neighbourhood, this truth is so well fixed in the minds
-          of the surrounding families, that he is considered as the rightful property
-          of some one or other of their daughters.
-          However little known the feelings or views of such a man may be on his
-          first entering a neighbourhood, this truth is so well fixed in the minds
-          of the surrounding families, that he is considered as the rightful property
-          of some one or other of their daughters.
-        </p>
-        <p>
-          However little known the feelings or views of such a man may be on his
-          first entering a neighbourhood, this truth is so well fixed in the minds
-          of the surrounding families, that he is considered as the rightful property
-          of some one or other of their daughters.
-          However little known the feelings or views of such a man may be on his
-          first entering a neighbourhood, this truth is so well fixed in the minds
-          of the surrounding families, that he is considered as the rightful property
-          of some one or other of their daughters.
-          However little known the feelings or views of such a man may be on his
-          first entering a neighbourhood, this truth is so well fixed in the minds
-          of the surrounding families, that he is considered as the rightful property
-          of some one or other of their daughters.
-          However little known the feelings or views of such a man may be on his
-          first entering a neighbourhood, this truth is so well fixed in the minds
-          of the surrounding families, that he is considered as the rightful property
-          of some one or other of their daughters.
-          However little known the feelings or views of such a man may be on his
-          first entering a neighbourhood, this truth is so well fixed in the minds
-          of the surrounding families, that he is considered as the rightful property
-          of some one or other of their daughters.
+          UTK is where I am currently studying for an undergraduate degree in 
+          Computer Science and Mathematics. In addition to school, I've been 
+          involved in various extra curricular activities, including: Toastmasters, 
+          swim club, rock climbing club, fraternity life, wakeboard club, outdoors 
+          club, and frequently go to the gym.
         </p>
       </div>
     </div>

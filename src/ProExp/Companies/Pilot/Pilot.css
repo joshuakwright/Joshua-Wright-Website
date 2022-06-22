@@ -1,22 +1,23 @@
-.picture {
+.pilot-picture {
     display: flex;
-    margin-left: 40%;
+    margin-left: 45.5%;
     margin-top: 150px;
     margin-bottom: 75px;
     max-width: 50%;
-    height: 400px;
+    height: 500px;
     border-radius: 10px;
     position: relative;
     z-index: 199;
 }
 
-.company {
+.pilot-company {
     font-size: 50px;
     margin-left: 53%;
 }
 
-.paragraph {
+.pilot-text {
     margin-top: 25px;
+    margin-bottom: 100px;
     text-align: left;
     margin-left: 25%;
     font-size: x-large;

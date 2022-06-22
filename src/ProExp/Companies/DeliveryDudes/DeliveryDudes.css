@@ -1,6 +1,6 @@
-.picture {
+.dd-picture {
     display: flex;
-    margin-left: 40%;
+    margin-left: 36%;
     margin-top: 150px;
     margin-bottom: 75px;
     max-width: 50%;
@@ -10,12 +10,12 @@
     z-index: 199;
 }
 
-.company {
+.dd-company {
     font-size: 50px;
-    margin-left: 53%;
+    margin-left: 48%;
 }
 
-.paragraph {
+.dd-paragraph {
     margin-top: 25px;
     text-align: left;
     margin-left: 25%;
