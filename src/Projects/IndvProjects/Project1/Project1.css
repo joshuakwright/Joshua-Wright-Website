@@ -1,5 +1,10 @@
-.project {
-    font-size: 50px;
-    text-align: center;
-    margin-top: 400px;
+.create-grid {
+    margin-left: 400px;
+    margin-top: 200px;
+}
+
+.board {
+    margin-left: 1300px;
+    white-space:pre;
+    font-size: 40px;
 }
