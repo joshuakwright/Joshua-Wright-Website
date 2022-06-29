@@ -48,6 +48,17 @@ export default function Project1() {
     } 
     solve(cells, 0)
 
+    let emptySquares = 0
+    while (emptySquares < 65) {
+      let i = Math.floor(Math.random() * 10) % 9;
+      let j = Math.floor(Math.random() * 10) % 9;
+
+      if (!(grid[i][j] === 0)) {
+        grid[i][j] = 0;
+        emptySquares++;
+      } 
+    }
+
     return grid; 
   }
 
@@ -155,7 +166,7 @@ export default function Project1() {
 
   return (
     <div>
-      <button className='create-grid' onClick={() => {CallGenerateRandomGrid(GenerateRandomGrid()); CallUpdateBoard(UpdateBoard());}}>Change Number</button>
+      <button className='create-grid' onClick={() => {CallGenerateRandomGrid(GenerateRandomGrid()); CallUpdateBoard(UpdateBoard());}}>New Random Game</button>
       {board}
     </div>
   )
