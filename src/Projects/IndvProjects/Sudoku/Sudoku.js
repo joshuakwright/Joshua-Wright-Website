@@ -3,7 +3,8 @@ import './Sudoku.css'
 
 export default function Sudoku() {
   const [grid, CallGenerateRandomGrid] = useState(Array(9).fill(0).map(x => Array(9).fill(0)));
-  const [board, CallUpdateBoard] = useState(UpdateBoard());
+  const [gameBoard, CallUpdateGameBoard] = useState(UpdateBoard());
+  const [solvedBoard, CallSolveGameBoard] = useState(UpdateBoard());
 
   function UpdateBoard() {
     let board = [];
@@ -35,6 +36,26 @@ export default function Sudoku() {
     );
   }
 
+  function SolveSudokuGrid() {
+    let cells = [];
+    let temp;
+    let initialized = false;
+
+    for (let i = 0; i < 9; i++) {
+      for (let j = 0; j < 9; j++) {
+        if (grid[i][j] === 0) {
+          temp = (i * 9) + j;
+          cells.push(temp);
+        }
+        else initialized = true;
+      }
+    }
+
+    if (initialized) SolveGrid(cells, 0, false)
+
+    return grid;
+  }
+
   function GenerateRandomGrid() {
     let cells = [];
     let temp;
@@ -46,7 +67,7 @@ export default function Sudoku() {
         grid[i][j] = 0;
 	    }
     } 
-    solve(cells, 0)
+    SolveGrid(cells, 0, true)
 
     let emptySquares = 0
     while (emptySquares < 65) {
@@ -62,7 +83,7 @@ export default function Sudoku() {
     return grid; 
   }
 
-  function solve(cells, num) {
+  function SolveGrid(cells, num, generate) {
     if (num === cells.length) {return true;}
 	
     let i = Math.floor(cells[num] / 9);
@@ -89,7 +110,7 @@ export default function Sudoku() {
     j = cells[num] % 9;
 
     values = valid_values(i, j);
-    randomShuffle(values);
+    if (generate) randomShuffle(values);
 
     if (values.length === 0) {
       return false;
@@ -97,7 +118,7 @@ export default function Sudoku() {
 
     for (let k = 0; k < values.length; k++) {
       grid[i][j] = values[k];
-      if (solve(cells, num+1) === true) {
+      if (SolveGrid(cells, num+1) === true) {
         return true;
       }
     }
@@ -166,8 +187,10 @@ export default function Sudoku() {
 
   return (
     <div>
-      <button className='create-grid' onClick={() => {CallGenerateRandomGrid(GenerateRandomGrid()); CallUpdateBoard(UpdateBoard());}}>New Random Game</button>
-      {board}
+      <button className='create-grid' onClick={() => {CallGenerateRandomGrid(GenerateRandomGrid()); CallUpdateGameBoard(UpdateBoard());}}>New Random Game</button>
+      <button className='create-grid' onClick={() => {CallGenerateRandomGrid(SolveSudokuGrid()); CallSolveGameBoard(UpdateBoard())}}>Solve Game</button>
+      {gameBoard}
+      {solvedBoard}
     </div>
   )
 }
