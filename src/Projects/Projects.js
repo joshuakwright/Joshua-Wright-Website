@@ -6,7 +6,7 @@ import './Projects.css'
 
 export default function Projects() {
   const buttons = SideBar([
-    { org: 'Project 1', url: 'project1' }, 
+    { org: 'Sudoku', url: 'sudoku' }, 
     { org: 'Project 2', url: 'project2' }, 
     { org: 'Project 3', url: 'project3' }, 
 ]);

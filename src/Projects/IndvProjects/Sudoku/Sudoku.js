@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
-import './Project1.css'
+import './Sudoku.css'
 
-export default function Project1() {
+export default function Sudoku() {
   const [grid, CallGenerateRandomGrid] = useState(Array(9).fill(0).map(x => Array(9).fill(0)));
   const [board, CallUpdateBoard] = useState(UpdateBoard());
 

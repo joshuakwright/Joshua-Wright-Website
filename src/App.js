@@ -15,7 +15,7 @@ import Parke from './ProExp/Companies/Parke/Parke'
 import DeliveryDudes from './ProExp/Companies/DeliveryDudes/DeliveryDudes'
 import UTK from './Education/Schools/UTK/UTK'
 import CPA from './Education/Schools/CPA/CPA'
-import Project1 from './Projects/IndvProjects/Project1/Project1'
+import Sudoku from './Projects/IndvProjects/Sudoku/Sudoku'
 import Project2 from './Projects/IndvProjects/Project2/Project2'
 import Project3 from './Projects/IndvProjects/Project3/Project3'
 
@@ -39,8 +39,8 @@ function App() {
           <Route path='*' element={ <Error/> } />
         </Route>
         <Route path='projects' element={ <Projects/> }>
-          <Route index element={ <Project1/> } />
-          <Route path='project1' element={ <Project1/> }/>
+          <Route index element={ <Sudoku/> } />
+          <Route path='sudoku' element={ <Sudoku/> }/>
           <Route path='project2' element={ <Project2/> }/>
           <Route path='project3' element={ <Project3/> }/>
           <Route path='*' element={ <Error/> } />
