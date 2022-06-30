@@ -23,7 +23,7 @@ export default function Sudoku() {
     }
 
     return (
-      <div className='board'>
+      <div>
         <span>| ------------------------------- |</span><br></br>
         {board.map((row, index) => {
           return (
@@ -56,7 +56,7 @@ export default function Sudoku() {
     return grid;
   }
 
-  function GenerateRandomGrid() {
+  function GenerateRandomGrid(difficulty) {
     let cells = [];
     let temp;
 
@@ -70,7 +70,7 @@ export default function Sudoku() {
     SolveGrid(cells, 0, true)
 
     let emptySquares = 0
-    while (emptySquares < 65) {
+    while (emptySquares < difficulty) {
       let i = Math.floor(Math.random() * 10) % 9;
       let j = Math.floor(Math.random() * 10) % 9;
 
@@ -187,10 +187,78 @@ export default function Sudoku() {
 
   return (
     <div>
-      <button className='create-grid' onClick={() => {CallGenerateRandomGrid(GenerateRandomGrid()); CallUpdateGameBoard(UpdateBoard());}}>New Random Game</button>
-      <button className='create-grid' onClick={() => {CallGenerateRandomGrid(SolveSudokuGrid()); CallSolveGameBoard(UpdateBoard())}}>Solve Game</button>
-      {gameBoard}
-      {solvedBoard}
+      <header className='sudoku'>Sudoku</header>
+      <div className='container'>
+        <div className='sudoku-desc'>
+          <p>
+            Welcome to my custom Sudoku generator! All you have to do is 
+            choose the difficulty and start solving (unfortunately, for 
+            now you'll have to copy it onto your own paper). If you get 
+            stuck, no problem. Just click the solve button and the solution 
+            instantly shows up on the right grid. Good luck!
+          </p>
+          <p>
+            Putting the obvious aside, this program is based on one of my 
+            early projects from my first data structures and algorithms class. 
+            Originally all it could do was solve a Sudoku game given to it 
+            as a text file. But I've since adapted the solution algorithm 
+            (just some simple recursion) to both create and solve Sudoku games. 
+          </p>
+          <p>
+            Right now there are only easy, medium, and hard difficulties, which 
+            are solely characterized by the amount of empty spaces on the board. 
+            However, many of these randomly generated games have multiple solutions, 
+            making them easier than their mono-solution counterparts. In the future 
+            I plan on implementing a new 'Extreme' difficulty, wherein the board will 
+            be guaranteed to have only one solution and the absolute minimum number 
+            of filled squares… 17. 
+          </p>
+          <p>
+            Fun Fact: It's never been proven that the fewest squares a single-solution 
+            sudoku board can have is 17, that's just what Sudoku enthusiasts say. 
+          </p>
+        </div>
+        <div className='generate-grid'>
+          {gameBoard}
+        </div>
+        <div className='solve-grid'>
+          {solvedBoard}
+        </div>
+      </div>
+      <button className='sudoku-button easy-button' onClick={() => {CallGenerateRandomGrid(GenerateRandomGrid(45)); CallUpdateGameBoard(UpdateBoard("generate"));}}>Easy Game</button>
+      <button className='sudoku-button medium-button' onClick={() => {CallGenerateRandomGrid(GenerateRandomGrid(55)); CallUpdateGameBoard(UpdateBoard("generate"));}}>Medium Game</button>
+      <button className='sudoku-button hard-button' onClick={() => {CallGenerateRandomGrid(GenerateRandomGrid(65)); CallUpdateGameBoard(UpdateBoard("generate"));}}>Hard Game</button>
+      <button className='sudoku-button solve-button' onClick={() => {CallGenerateRandomGrid(SolveSudokuGrid()); CallSolveGameBoard(UpdateBoard("solve"))}}>Solve Game</button>
     </div>
   )
 }
+
+//Future idea for cool retro page title
+/* 
+<div className='sudoku'>
+        <p>  
+              ________  ___  ___  ________  ________  ___  __    ___  ___                                                      
+        </p>
+        <p>
+            |\   ____\|\  \|\  \|\   ___ \|\   __  \|\  \|\  \ |\  \|\  \    
+        </p>
+        <p>
+            \ \  \___|\ \  \\\  \ \  \_|\ \ \  \|\  \ \  \/  /|\ \  \\\  \   
+        </p>
+        <p>
+              \ \_____  \ \  \\\  \ \  \ \\ \ \  \\\  \ \   ___  \ \  \\\  \ 
+        </p>
+        <p>
+                \|____|\  \ \  \\\  \ \  \_\\ \ \  \\\  \ \  \\ \  \ \  \\\  \ 
+        </p>
+        <p>
+                  ____\_\  \ \_______\ \_______\ \_______\ \__\\ \__\ \_______\                                                  
+        </p>
+        <p>
+                |\_________\|_______|\|_______|\|_______|\|__| \|__|\|_______|
+        </p>
+        <p>
+                \|_________|
+        </p>
+      </div>
+*/

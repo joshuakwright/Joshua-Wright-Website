@@ -1,10 +1,82 @@
-.create-grid {
-    margin-left: 400px;
-    margin-top: 200px;
+@import url(https://fonts.googleapis.com/css?family=VT323);
+
+.sudoku {
+    margin-left: 21%;
+    margin-top: 130px;
+    font-size: 100px;
+    font-family: 'Courier New', monospace;
 }
 
-.board {
-    margin-left: 1300px;
+.container {
+    display: table;
+    margin-left: 300px;
+    width: 80%;
+    text-align: right;
+    margin-bottom: -80px;
+}
+
+.sudoku-desc {
+    display: table-cell;
+    font-family: 'Courier New', monospace;
+    font-size: 18px;
+    width: 550px;
+    text-align: justify;
+}
+
+.generate-grid {
+    display: table-cell;
     white-space:pre;
-    font-size: 25px;
+    font-size: 35px;
+}
+
+.solve-grid {
+    display: table-cell;
+    white-space:pre;
+    font-size: 35px;
+}
+
+.sudoku-button {
+	background: #7C7C7C;
+	border-bottom: 6px inset rgba(0,0,0,.5);
+	border-left: 6px inset rgba(0,0,0,.5);
+	border-right: 6px inset rgba(255,255,255,.5);
+	border-top: 6px inset rgba(255,255,255,.5);
+	color: white;
+	cursor: pointer;
+	font-size: 2.2rem;
+	margin: 1rem;
+	min-width: 200px;
+	padding: .5rem;
+	text-transform: uppercase;
+	width: auto;
+    font-family: 'VT323', monospace ;
+}
+
+.solve-button:hover {
+    background: #BCBCBC;
+}
+
+.easy-button {
+	background: #0000BC;
+    margin-left: 49%;
+}
+
+.easy-button:hover {
+    background: #0000FC;
+}
+
+.medium-button {
+	background: #005800;
+}
+
+.medium-button:hover {
+    background: #006800;
+}
+
+.hard-button {
+    background: #881400;
+}
+
+.hard-button:hover {
+    background: #A81000;
 }
