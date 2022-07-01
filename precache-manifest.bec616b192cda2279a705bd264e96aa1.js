@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "92c718469796abaf0137",
+    "revision": "fea48e2c8ad59947a5d3",
     "url": "/joshua-wright-website/static/css/main.72c30cfb.chunk.css"
   },
   {
-    "revision": "92c718469796abaf0137",
-    "url": "/joshua-wright-website/static/js/main.92c71846.chunk.js"
+    "revision": "fea48e2c8ad59947a5d3",
+    "url": "/joshua-wright-website/static/js/main.fea48e2c.chunk.js"
   },
   {
     "revision": "f8c0c7d1d15af644b5f9",
@@ -88,7 +88,7 @@ self.__precacheManifest = [
     "url": "/joshua-wright-website/static/media/YosemiteAndMe.f40a49ec.jpg"
   },
   {
-    "revision": "5749f0d39ad4ec53fb6a05ff3c862162",
+    "revision": "89599b27be4f6b9b02d5358ccf6b27d5",
     "url": "/joshua-wright-website/index.html"
   }
 ];
