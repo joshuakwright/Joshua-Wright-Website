@@ -7,8 +7,8 @@ import './Projects.css'
 export default function Projects() {
   const buttons = SideBar([
     { org: 'Sudoku', url: 'sudoku' }, 
-    { org: 'Project 2', url: 'project2' }, 
-    { org: 'Project 3', url: 'project3' }, 
+    { org: 'Image Translation', url: 'imagetranslation' }, 
+    { org: 'Maze Solver', url: 'mazesolver' }, 
 ]);
 
   return (

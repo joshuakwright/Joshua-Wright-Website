@@ -35,6 +35,7 @@
     font-size: 35px;
 }
 
+/* Button design taken from Retro Buttons Website by b.Stayles */
 .sudoku-button {
 	background: #7C7C7C;
 	border-bottom: 6px inset rgba(0,0,0,.5);

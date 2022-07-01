@@ -16,8 +16,9 @@ import DeliveryDudes from './ProExp/Companies/DeliveryDudes/DeliveryDudes'
 import UTK from './Education/Schools/UTK/UTK'
 import CPA from './Education/Schools/CPA/CPA'
 import Sudoku from './Projects/IndvProjects/Sudoku/Sudoku'
-import Project2 from './Projects/IndvProjects/Project2/Project2'
-import Project3 from './Projects/IndvProjects/Project3/Project3'
+import ImageTranslation from './Projects/IndvProjects/ImageTranslation/ImageTranslation'
+import MazeSolver from './Projects/IndvProjects/MazeSolver/MazeSolver'
+import ContactMe from './ContactMe/ContactMe'
 
 function App() {
   return (
@@ -41,11 +42,12 @@ function App() {
         <Route path='projects' element={ <Projects/> }>
           <Route index element={ <Sudoku/> } />
           <Route path='sudoku' element={ <Sudoku/> }/>
-          <Route path='project2' element={ <Project2/> }/>
-          <Route path='project3' element={ <Project3/> }/>
+          <Route path='imagetranslation' element={ <ImageTranslation/> }/>
+          <Route path='mazesolver' element={ <MazeSolver/> }/>
           <Route path='*' element={ <Error/> } />
         </Route>
         <Route path='myresume' element={ <Resume/> } />
+        <Route path='contactme' element={ <ContactMe/> } />
         <Route path='*' element={ <Error/> } />
        </Routes>
     </div>

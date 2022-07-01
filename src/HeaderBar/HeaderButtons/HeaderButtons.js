@@ -27,6 +27,10 @@ export default function HeaderButtons() {
       <button className='page-link' onClick={() => {
         navigate('/myresume');
         }}>My Resume</button>
+        
+      <button className='page-link' onClick={() => {
+        navigate('/contactme');
+        }}>Contact Me</button>
     </div>
   )
 }
