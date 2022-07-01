@@ -1,15 +1,15 @@
 self.__precacheManifest = [
   {
-    "revision": "65a5849eb2cd280b8b4a",
-    "url": "/joshua-wright-website/static/css/main.6f7fcd17.chunk.css"
+    "revision": "92c718469796abaf0137",
+    "url": "/joshua-wright-website/static/css/main.72c30cfb.chunk.css"
   },
   {
-    "revision": "65a5849eb2cd280b8b4a",
-    "url": "/joshua-wright-website/static/js/main.65a5849e.chunk.js"
+    "revision": "92c718469796abaf0137",
+    "url": "/joshua-wright-website/static/js/main.92c71846.chunk.js"
   },
   {
-    "revision": "01d3088411cc8a7890f9",
-    "url": "/joshua-wright-website/static/js/1.01d30884.chunk.js"
+    "revision": "f8c0c7d1d15af644b5f9",
+    "url": "/joshua-wright-website/static/js/1.f8c0c7d1.chunk.js"
   },
   {
     "revision": "3e1ef1c14657429b023d",
@@ -84,7 +84,11 @@ self.__precacheManifest = [
     "url": "/joshua-wright-website/static/media/CPA.a25fa1b2.jpg"
   },
   {
-    "revision": "ffd43645342fc18ac1ffe504b7df29a8",
+    "revision": "f40a49ec3cb3234d6f8c6332a1fe9b45",
+    "url": "/joshua-wright-website/static/media/YosemiteAndMe.f40a49ec.jpg"
+  },
+  {
+    "revision": "5749f0d39ad4ec53fb6a05ff3c862162",
     "url": "/joshua-wright-website/index.html"
   }
 ];
