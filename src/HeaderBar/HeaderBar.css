@@ -21,3 +21,12 @@
     top: 4px;
     -webkit-text-stroke: 1px black;
 }
+
+.version {
+    font-size: small;
+    position: absolute;
+    color: gray;
+    top: 60%;
+    z-index: 401;
+    right: 7%;
+}

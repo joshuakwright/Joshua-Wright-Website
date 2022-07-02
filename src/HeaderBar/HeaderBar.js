@@ -8,6 +8,7 @@ export default function HeaderBar() {
         <HeaderButtons />
         <div>
             <span className='my-name'>JOSHUA WRIGHT</span>
+            <span className='version'>v1.0.0</span>
         </div>
     </header>
   )
