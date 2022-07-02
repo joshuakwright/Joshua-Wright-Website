@@ -1,23 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "fea48e2c8ad59947a5d3",
-    "url": "/joshua-wright-website/static/css/main.72c30cfb.chunk.css"
+    "revision": "a8a580c08a0e98510de4",
+    "url": "/joshua-wright-website/static/css/main.2d75e06d.chunk.css"
   },
   {
-    "revision": "fea48e2c8ad59947a5d3",
-    "url": "/joshua-wright-website/static/js/main.fea48e2c.chunk.js"
+    "revision": "a8a580c08a0e98510de4",
+    "url": "/joshua-wright-website/static/js/main.a8a580c0.chunk.js"
   },
   {
-    "revision": "f8c0c7d1d15af644b5f9",
-    "url": "/joshua-wright-website/static/js/1.f8c0c7d1.chunk.js"
+    "revision": "03dc179b72f7981f11ff",
+    "url": "/joshua-wright-website/static/js/1.03dc179b.chunk.js"
   },
   {
     "revision": "3e1ef1c14657429b023d",
     "url": "/joshua-wright-website/static/js/runtime~main.3e1ef1c1.js"
-  },
-  {
-    "revision": "0f0939b2560af40d00427d1a8378cadd",
-    "url": "/joshua-wright-website/static/media/TempResume.0f0939b2.jpg"
   },
   {
     "revision": "805e4b2bcffa70a2099ec1fcde6a399e",
@@ -68,6 +64,14 @@ self.__precacheManifest = [
     "url": "/joshua-wright-website/static/media/Venice.4fe76d56.jpg"
   },
   {
+    "revision": "6815ea77d69a493589f6d7fb120f5bd4",
+    "url": "/joshua-wright-website/static/media/ImgResume.6815ea77.jpg"
+  },
+  {
+    "revision": "da0b4e5ec67a07660b444dfdc210f376",
+    "url": "/joshua-wright-website/static/media/JoshuaWrightResume.da0b4e5e.pdf"
+  },
+  {
     "revision": "08d89a4f532ea5ad7efe5eb63a4bf49f",
     "url": "/joshua-wright-website/static/media/tempimg3.08d89a4f.jpg"
   },
@@ -88,7 +92,7 @@ self.__precacheManifest = [
     "url": "/joshua-wright-website/static/media/YosemiteAndMe.f40a49ec.jpg"
   },
   {
-    "revision": "89599b27be4f6b9b02d5358ccf6b27d5",
+    "revision": "a22ca25fdeb95333140b45c155de9ecf",
     "url": "/joshua-wright-website/index.html"
   }
 ];
