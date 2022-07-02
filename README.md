@@ -1,4 +1,4 @@
-#Welcome to my personal web page built using react!
+# Welcome to my personal web page built using react!
 
 Feel free to copy and reuse any of the code you see here. All I ask is that whereever you copy from my code, 
 you put a comment in your codegiving credit to me. Below you'll find some useful information on getting
