@@ -1,5 +1,8 @@
 .menu-bar {
-    padding: 25px;
+    padding-top: max(3vh, env(safe-area-inset-top));
+    padding-bottom: max(3vh, env(safe-area-inset-bottom));
+    padding-left: max(3vh, env(safe-area-inset-left));
+    padding-right: max(3vh, env(safe-area-inset-right));
     justify-content: space-between;
     background-color: #474b4f;
     top: 0px;
@@ -12,21 +15,63 @@
 }
 
 .my-name {
+    position: absolute;
+    right: max(8vw, env(safe-area-inset-right) + 8vw);
+    top: 3vh;
     font-family: "Open Sans", sans-serif;
-    font-size: 30px;
-    letter-spacing: 2px;
+    font-size: 1.8vw;
+    letter-spacing: .1vw;
     text-transform: uppercase;
-    margin-right: 100px;
     color: white;
-    top: 4px;
-    -webkit-text-stroke: 1px black;
+    -webkit-text-stroke: .05vw black;
 }
 
 .version {
-    font-size: small;
+    font-size: .7vw;
     position: absolute;
     color: gray;
     top: 60%;
     z-index: 401;
-    right: 7%;
+    right: max(8vw, env(safe-area-inset-right) + 8vw);
+}
+
+@media (max-width: 1400px) {
+    .version {
+        font-size: 1vw;
+    }
+}
+
+@media (max-width: 1200px) {
+    .version {
+        font-size: 1.3vw;
+        right: max(8.5vw , env(safe-area-inset-right) + 8.5vw);
+    }
+}
+
+@media (max-width: 1000px) {
+    .version {
+        font-size: 1.6vw;
+        right: max(9vw, env(safe-area-inset-right) + 9vw);
+    }
+}
+
+@media (max-width: 800px) {
+    .menu-bar {
+        padding-top: max(1vh, env(safe-area-inset-top));
+        padding-bottom: max(1vh, env(safe-area-inset-bottom));
+        padding-left: max(1vh, env(safe-area-inset-left));
+        padding-right: max(1vh, env(safe-area-inset-right));
+    }
+
+    .my-name {
+        position: relative;
+        right: 0;
+        top: .5vh;
+        padding-right: max(3vw, env(safe-area-inset-right));
+        font-size: 2.5vw;
+    }
+
+    .version {
+        display: none;
+    }
 }

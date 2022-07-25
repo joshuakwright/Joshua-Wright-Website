@@ -22,7 +22,8 @@ import ContactMe from './ContactMe/ContactMe'
 
 function App() {
   return (
-    <div>
+    <div className='web-page'>
+      <meta name="viewport" content="width=device-width, initial-scale=1 viewport-fit=cover" />
       <Routes>
         <Route path='/*' element={ <Home/> } />
         <Route path='proexp' element={ <ProExp/> }>

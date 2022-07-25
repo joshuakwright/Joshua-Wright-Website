@@ -2,31 +2,36 @@
 
 .page-link {
   font-family: "Open Sans", sans-serif;
-  font-size: 16px;
-  letter-spacing: 2px;
+  font-size: 1vw;
+  letter-spacing: .1vw;
   text-decoration: none;
   text-transform: uppercase;
   color: #000;
   cursor: pointer;
-  border: 3px solid;
-  margin-right: 15px;
-  padding: 0.25em 0.5em;
-  box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+  border: .25vw solid;
+  margin-right: .8vw;
+  box-shadow: .01vw .01vw 0vw 0vw, .02vw .02vw 0vw 0vw, .1vw .1vw 0vw 0vw, .2vw .2vw 0vw 0vw, .3vw .3vw 0vw 0vw;
   position: relative;
-  margin-bottom: 10px;
+  margin-bottom: .8vh;
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
 }
 
 .page-link:active {
-  box-shadow: 0px 0px 0px 0px;
-  top: 5px;
-  left: 5px;
+  box-shadow: 0vw 0vw 0vw 0vw;
+  top: .3vw;
+  left: .3vw;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 800px) {
   .page-link {
-    padding: 0.25em 0.75em;
+    padding: .4vh .5vw;
+  }
+}
+
+@media (max-width: 800px) {
+  .page-link {
+    font-size: 2vw;
   }
 }
