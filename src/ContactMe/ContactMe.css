@@ -1,18 +1,47 @@
 .yosemiteandme {
-    margin-top: 100px;
-    margin-left: 40%;
-    max-height: 400px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 17vh;
+    max-height: 40vh;
     border-radius: 100%;
 }
 
 .info {
-    font-size: 25px;
+    font-size: 3vh;
     font-family: 'Courier New', monospace;
-    margin-left: 34%;
+    margin-left: 30vw;
     white-space: pre;
 }
 
 .section-title {
-    margin-bottom: 20px;
-    margin-top: 20px;
+    margin-bottom: 2vh;
+    margin-top: 2vh;
+}
+
+@media (max-width: 1200px) {
+    .info {
+        margin-left: 20vw;
+    }
+}
+
+@media (max-width: 1000px) {
+
+
+    .info {
+        margin-left: 10vw;
+    }
+}
+
+@media (max-width: 600px) {
+    .yosemiteandme {
+        margin-top: 10vh;
+        margin-left: 22vw;
+        max-height: 30vh;
+    }
+
+    .info {
+        font-size: 1.6vh;
+        margin-left: 3vw;
+    }
 }
