@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "929a9064b3e655544474",
-    "url": "/static/css/main.6e921da0.chunk.css"
+    "revision": "f60feef888ad9f12db08",
+    "url": "/static/css/main.6f708a58.chunk.css"
   },
   {
-    "revision": "929a9064b3e655544474",
-    "url": "/static/js/main.929a9064.chunk.js"
+    "revision": "f60feef888ad9f12db08",
+    "url": "/static/js/main.f60feef8.chunk.js"
   },
   {
     "revision": "03dc179b72f7981f11ff",
@@ -92,7 +92,7 @@ self.__precacheManifest = [
     "url": "/static/media/YosemiteAndMe.f40a49ec.jpg"
   },
   {
-    "revision": "404d162f0029a019a029d534f30834e6",
+    "revision": "e31ecb500f98cca44482271bd262a73c",
     "url": "/index.html"
   }
 ];
