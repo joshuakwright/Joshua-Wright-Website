@@ -1,10 +1,10 @@
 .cpa-picture {
     display: flex;
-    margin-left: 49%;
-    margin-top: 150px;
-    margin-bottom: 75px;
+    margin-left: 45%;
+    margin-top: 20vh;
+    margin-bottom: 8vh;
     max-width: 50%;
-    height: 400px;
+    height: 44vh;
     border-radius: 10px;
     position: relative;
     z-index: 199;
@@ -15,10 +15,36 @@
     margin-left: 41%;
 }
 
-.cpa-paragraph {
-    margin-top: 25px;
-    text-align: left;
+.cpa-text {
+    margin-top: 4vh;
+    margin-bottom: 10vh;
+    text-align: justify;
     margin-left: 25%;
     font-size: x-large;
-    padding-right: 200px;
+    padding-right: 10vw;
+}
+
+@media (max-width: 800px) {
+    .cpa-picture {
+        margin-left: 39%;
+    }
+
+    .cpa-school {
+        margin-left: 37%;
+    }
+
+    .cpa-text {
+        margin-left: 34%;
+        padding-right: 5vw;
+    }
+}
+
+@media (max-height: 500px) {
+    .cpa-picture {
+        margin-left: 49%;
+    }
+
+    .cpa-school {
+        margin-left: 35%;
+    }
 }

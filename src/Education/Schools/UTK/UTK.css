@@ -1,10 +1,10 @@
 .utk-picture {
     display: flex;
     margin-left: 48%;
-    margin-top: 150px;
-    margin-bottom: 75px;
+    margin-top: 20vh;
+    margin-bottom: 8vh;
     max-width: 50%;
-    height: 400px;
+    height: 44vh;
     border-radius: 10px;
     position: relative;
     z-index: 199;
@@ -15,10 +15,35 @@
     margin-left: 38%;
 }
 
-.utk-paragraph {
-    margin-top: 25px;
-    text-align: left;
+.utk-text {
+    margin-top: 4vh;
+    margin-bottom: 10vh;
+    text-align: justify;
     margin-left: 25%;
     font-size: x-large;
-    padding-right: 200px;
+    padding-right: 10vw;
+}
+
+@media (max-width: 800px) {
+    .utk-picture {
+        margin-left: 39%;
+    }
+
+    .utk-school {
+        margin-left: 37%;
+    }
+
+    .utk-text {
+        margin-left: 34%;
+        padding-right: 5vw;
+    }
+}
+
+@media (max-height: 500px) {
+    .utk-picture {
+        margin-left: 51%;
+    }
+    .utk-school {
+        margin-left: 31%;
+    }
 }

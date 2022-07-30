@@ -1,10 +1,10 @@
 .parke-picture {
     display: flex;
-    margin-left: 49%;
-    margin-top: 150px;
-    margin-bottom: 75px;
+    margin-left: 51%;
+    margin-top: 20vh;
+    margin-bottom: 8vh;
     max-width: 50%;
-    height: 500px;
+    height: 44vh;
     border-radius: 10px;
     position: relative;
     z-index: 199;
@@ -15,11 +15,36 @@
     margin-left: 45%;
 }
 
-.parke-paragraph {
-    margin-top: 25px;
-    margin-bottom: 100px;
-    text-align: left;
+.parke-text {
+    margin-top: 4vh;
+    margin-bottom: 10vh;
+    text-align: justify;
     margin-left: 25%;
     font-size: x-large;
-    padding-right: 200px;
+    padding-right: 10vw;
+}
+
+@media (max-width: 800px) {
+    .parke-picture {
+        margin-left: 45%;
+    }
+
+    .parke-company {
+        margin-left: 40vw;
+    }
+
+    .parke-text {
+        margin-left: 35%;
+        padding-right: 5vw;
+    }
+}
+
+@media (max-height: 500px) {
+    .parke-picture {
+        margin-left: 51%;
+    }
+
+    .parke-company {
+        margin-left: 33vw;
+    }
 }

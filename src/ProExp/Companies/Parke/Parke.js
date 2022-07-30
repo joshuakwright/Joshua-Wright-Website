@@ -6,8 +6,8 @@ export default function Park() {
   return (
     <div>
       <img className='parke-picture' src={ParkPic} alt='Missing' />
-      <span className='parke-company'>The Parke Company</span>
-      <div className='parke-paragraph'>
+      <p className='parke-company'>The Parke Company</p>
+      <div className='parke-text'>
         <p>
           Parke company is a landscaping / tree removal business based 
           out of Nashville, TN. While I was here, I was mostly working 

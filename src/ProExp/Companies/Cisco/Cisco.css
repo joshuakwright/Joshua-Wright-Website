@@ -1,10 +1,10 @@
 .cisco-picture {
     display: flex;
     margin-left: 40%;
-    margin-top: 150px;
-    margin-bottom: 75px;
+    margin-top: 20vh;
+    margin-bottom: 8vh;
     max-width: 50%;
-    height: 400px;
+    height: 44vh;
     border-radius: 10px;
     position: relative;
     z-index: 199;
@@ -16,11 +16,21 @@
 }
 
 .cisco-text {
-    margin-top: 25px;
-    margin-bottom: 100px;
-    text-align: left;
+    margin-top: 4vh;
+    margin-bottom: 10vh;
+    text-align: justify;
     margin-left: 25%;
     font-size: x-large;
-    padding-right: 200px;
-    color: black;
+    padding-right: 10vw;
+}
+
+@media (max-width: 800px) {
+    .cisco-company {
+        margin-left: 52%;
+    }
+
+    .cisco-text {
+        margin-left: 35%;
+        padding-right: 5vw;
+    }
 }

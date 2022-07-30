@@ -6,8 +6,8 @@ export default function CPA() {
   return (
     <div>
       <img className='cpa-picture' src={CPAPic} alt='Missing' />
-      <span className='cpa-school'>Christ Presbyterian Academy</span>
-      <div className='cpa-paragraph'>
+      <p className='cpa-school'>Christ Presbyterian Academy</p>
+      <div className='cpa-text'>
         <p>
           CPA is where I attended preschool, elementary school, middle school, 
           and high school for 16 years. This is where I became an Eagle Scout 

@@ -1,10 +1,10 @@
 .dd-picture {
     display: flex;
-    margin-left: 36%;
-    margin-top: 150px;
-    margin-bottom: 75px;
+    margin-left: 35%;
+    margin-top: 20vh;
+    margin-bottom: 8vh;
     max-width: 50%;
-    height: 400px;
+    height: 44vh;
     border-radius: 10px;
     position: relative;
     z-index: 199;
@@ -15,10 +15,32 @@
     margin-left: 48%;
 }
 
-.dd-paragraph {
-    margin-top: 25px;
-    text-align: left;
+.dd-text {
+    margin-top: 4vh;
+    margin-bottom: 10vh;
+    text-align: justify;
     margin-left: 25%;
     font-size: x-large;
-    padding-right: 200px;
+    padding-right: 10vw;
+}
+
+@media (max-width: 800px) {
+    .dd-picture {
+        margin-left: 40%;
+    }
+
+    .dd-company {
+        margin-left: 43vw;
+    }
+
+    .dd-text {
+        margin-left: 35%;
+        padding-right: 5vw;
+    }
+}
+
+@media (max-height: 500px) {
+    .dd-company {
+        margin-left: 38vw;
+    }
 }

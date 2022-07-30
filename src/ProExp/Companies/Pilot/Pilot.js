@@ -6,7 +6,7 @@ export default function Pilot() {
   return (
     <div>
       <img className='pilot-picture' src={PilotPhoto} alt='Missing' />
-      <span className='pilot-company'>Pilot</span>
+      <p className='pilot-company'>Pilot</p>
       <div className='pilot-text'>
         <p>
           Pilot is where my career in software development began and where I 
