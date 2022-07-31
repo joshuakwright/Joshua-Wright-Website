@@ -1,11 +1,11 @@
 import React from 'react'
 import './DeliveryDudes.css'
-import temp from './tempimg2.jpg'
+import DeliveryDudesLogo from './DeliveryDudesLogo.jpg'
 
 export default function DeliveryDudes() {
   return (
     <div>
-      <img className='dd-picture' src={temp} alt='Missing' />
+      <img className='dd-picture' src={DeliveryDudesLogo} alt='Missing' />
       <p className='dd-company'>Delivery Dudes</p>
       <div className='dd-text'>
         <p>

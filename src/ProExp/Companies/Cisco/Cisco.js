@@ -1,11 +1,11 @@
 import React from 'react'
 import './Cisco.css'
-import temp from './tempimg3.jpg'
+import CiscoSign from './CiscoSign.jpg'
 
 export default function Cisco() {
   return (
     <div>
-      <img className='cisco-picture' src={temp} alt='Missing' />
+      <img className='cisco-picture' src={CiscoSign} alt='Missing' />
       <p className='cisco-company'>Cisco</p>
       <div className='cisco-text'>
         <p>
@@ -17,16 +17,17 @@ export default function Cisco() {
           automation, routing systems, and furthered my understanding of python. 
         </p>
         <p>
-          At the moment I am currently in the research stage with the testing 
-          automation. But I plan to update this page as I progress further into 
-          the project. It will involve a few aspects: understanding the current 
-          framework for testing, linking the topology of the Spitfire routers to 
-          that of the testing framework, and most importantly, ensuring proper 
-          sanitation of the environment once the testing has completed.
+          My main project, automating the testing framework for the Spitfire routers, 
+          involved a few aspects: understanding the current framework for testing, 
+          linking the topology of the Spitfire routers to that of the testing framework, 
+          and most importantly, ensuring proper sanitation of the environment once the 
+          testing has completed. Once I completed that project, testing went from a 
+          cumbersome and sometimes lengthy process to automated nightly testing at the 
+          click of a button.
         </p>
         <p>
-          In parallel to working on this project, I have been updating test cases 
-          from the older class of router to work with Spitfire. Before my time at
+          In parallel to working on that project, I was updating test cases 
+          from an older class of router to work with Spitfire. Before my time at
            Cisco I had relatively little knowledge on networking. So in order to 
            properly update the test cases, I have done three things: research and 
            understand the networking protocol that is being tested, study documentation 

@@ -1,6 +1,6 @@
 .cisco-picture {
     display: flex;
-    margin-left: 40%;
+    margin-left: 47.5%;
     margin-top: 20vh;
     margin-bottom: 8vh;
     max-width: 50%;
@@ -25,12 +25,26 @@
 }
 
 @media (max-width: 800px) {
+    .cisco-picture { 
+        margin-left: 38vw;
+    }
+
     .cisco-company {
-        margin-left: 52%;
+        margin-left: 50.5%;
     }
 
     .cisco-text {
         margin-left: 35%;
         padding-right: 5vw;
+    }
+}
+
+@media (max-height: 500px) {
+    .cisco-picture { 
+        margin-left: 50vw;
+    }
+
+    .cisco-company {
+        margin-left: 51.75%;
     }
 }
