@@ -1,7 +1,7 @@
 {
-  "main.css": "/static/css/main.c2b834e8.chunk.css",
-  "main.js": "/static/js/main.e71a7368.chunk.js",
-  "main.js.map": "/static/js/main.e71a7368.chunk.js.map",
+  "main.css": "/static/css/main.90416e2d.chunk.css",
+  "main.js": "/static/js/main.e63e0500.chunk.js",
+  "main.js.map": "/static/js/main.e63e0500.chunk.js.map",
   "static/js/1.03dc179b.chunk.js": "/static/js/1.03dc179b.chunk.js",
   "static/js/1.03dc179b.chunk.js.map": "/static/js/1.03dc179b.chunk.js.map",
   "runtime~main.js": "/static/js/runtime~main.229c360f.js",
@@ -20,13 +20,13 @@
   "static/media/Venice.jpg": "/static/media/Venice.4fe76d56.jpg",
   "static/media/ImgResume.jpg": "/static/media/ImgResume.6815ea77.jpg",
   "static/media/JoshuaWrightResume.pdf": "/static/media/JoshuaWrightResume.da0b4e5e.pdf",
-  "static/media/tempimg3.jpg": "/static/media/tempimg3.08d89a4f.jpg",
-  "static/media/tempimg2.jpg": "/static/media/tempimg2.07a040a8.jpg",
+  "static/media/CiscoSign.jpg": "/static/media/CiscoSign.677604a8.jpg",
+  "static/media/DeliveryDudesLogo.jpg": "/static/media/DeliveryDudesLogo.298d79ff.jpg",
   "static/media/UTKFam.jpg": "/static/media/UTKFam.4e8d2cce.jpg",
   "static/media/CPA.jpg": "/static/media/CPA.a25fa1b2.jpg",
   "static/media/YosemiteAndMe.jpg": "/static/media/YosemiteAndMe.f40a49ec.jpg",
-  "static/css/main.c2b834e8.chunk.css.map": "/static/css/main.c2b834e8.chunk.css.map",
+  "static/css/main.90416e2d.chunk.css.map": "/static/css/main.90416e2d.chunk.css.map",
   "index.html": "/index.html",
-  "precache-manifest.52a912f5b5218adabf91f4740a221a43.js": "/precache-manifest.52a912f5b5218adabf91f4740a221a43.js",
+  "precache-manifest.a91c9dde1696e16929f45e5465abd80d.js": "/precache-manifest.a91c9dde1696e16929f45e5465abd80d.js",
   "service-worker.js": "/service-worker.js"
 }
