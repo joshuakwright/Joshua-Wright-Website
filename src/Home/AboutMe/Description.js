@@ -8,7 +8,7 @@ export default function Description() {
       <div className='text'>
         <p>
           Hi there! Welcome to my website. Let me tell you a little about myself. I'm currently enrolled at the 
-          University of Tennessee Knoxville as a senior majoring in Computer Science and Mathematics. However, 
+          University of Tennessee Knoxville as a senior majoring in Computer Science and Applied Mathematics. However, 
           this summer, I am interning at Cisco Systems as a Technical Undergraduate intern working on developing 
           testing software for Cisco's Spitfire class routers.
         </p>

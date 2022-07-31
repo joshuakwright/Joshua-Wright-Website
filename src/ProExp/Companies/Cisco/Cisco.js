@@ -9,8 +9,8 @@ export default function Cisco() {
       <p className='cisco-company'>Cisco</p>
       <div className='cisco-text'>
         <p>
-          I have nothing but love for my time at Cisco so far. Since I started, 
-          my work has revolved around two main projects: automating the testing 
+          I have nothing but love for my time at Cisco. When I was there, 
+          my work revolved around two main projects: automating the testing 
           for Cisco's Spitfire class router and porting over test cases from the 
           previous class of router to work with Spitfire. Through these projects 
           I've learned about network protocols functionality / implementation, testing 
