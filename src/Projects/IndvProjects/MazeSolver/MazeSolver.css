@@ -1,5 +1,11 @@
-.mazesolver {
+.maze-solver {
     font-size: 50px;
     margin-left: 30%;
-    margin-top: 400px;
+    margin-top: 40vh;
+}
+
+@media (max-width: 800px) {
+    .maze-solver {
+        margin-top: 20vh;
+    }
 }

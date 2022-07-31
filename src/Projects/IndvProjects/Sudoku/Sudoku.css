@@ -1,15 +1,15 @@
 @import url(https://fonts.googleapis.com/css?family=VT323);
 
 .sudoku {
-    margin-left: 21%;
-    margin-top: 130px;
-    font-size: 100px;
+    margin-left: 21vw;
+    margin-top: 14vh;
+    font-size: 5vw;
     font-family: 'Courier New', monospace;
 }
 
 .container {
     display: table;
-    margin-left: 300px;
+    margin-left: 16vw;
     width: 80%;
     text-align: right;
     margin-bottom: -80px;
@@ -18,25 +18,26 @@
 .sudoku-desc {
     display: table-cell;
     font-family: 'Courier New', monospace;
-    font-size: 18px;
-    width: 550px;
+    font-size: .95vw;
+    width: 28vw;
     text-align: justify;
 }
 
 .generate-grid {
     display: table-cell;
     white-space:pre;
-    font-size: 35px;
+    font-size: 1.83vw;
 }
 
 .solve-grid {
     display: table-cell;
     white-space:pre;
-    font-size: 35px;
+    font-size: 1.83vw;
 }
 
 /* Button design taken from Retro Buttons Website by b.Stayles */
 .sudoku-button {
+    position: relative;
 	background: #7C7C7C;
 	border-bottom: 6px inset rgba(0,0,0,.5);
 	border-left: 6px inset rgba(0,0,0,.5);
@@ -44,12 +45,12 @@
 	border-top: 6px inset rgba(255,255,255,.5);
 	color: white;
 	cursor: pointer;
-	font-size: 2.2rem;
-	margin: 1rem;
-	min-width: 200px;
-	padding: .5rem;
+	font-size: 1.4vw;
+	margin-left: 5vw;
+    margin-top: 3vh;
+	width: 8vw;
+	padding: .5vw;
 	text-transform: uppercase;
-	width: auto;
     font-family: 'VT323', monospace ;
 }
 
@@ -80,4 +81,88 @@
 
 .hard-button:hover {
     background: #A81000;
+}
+
+@media (max-width: 1900px) {
+    .sudoku-desc {
+        padding-right: 5vw;
+    }
+
+    .generate-grid {
+        padding-right: 5vw;
+    }
+}
+
+@media (max-width: 800px) {
+    .sudoku { 
+        margin-left: 42vw;
+        font-size: 10vw;
+    }
+
+    .container {
+        table-layout: fixed;
+        width: 250vw;
+        margin-left: 35vw;
+    }
+
+    .sudoku-desc {
+        font-size: 3vw;
+        padding-right: 10vw;
+        width: 50vw;
+    }
+
+    .generate-grid {
+        font-size: 35px;
+        padding-right: 10vw;
+        margin-right: 10vw;
+    }
+    
+    .solve-grid {
+        font-size: 35px;
+        padding-right: 10vw;
+        margin-right: 10vw;
+    }
+
+    .sudoku-button {
+        position: absolute;
+        font-size: 7vw;
+        width: 35vw;
+        margin-top: 15vh;
+    }
+
+    .easy-button {
+        left: 55vw;
+        top: 80vh;
+    }
+
+    .medium-button {
+        left: 145vw;
+        top: 80vh;
+    }
+
+    .hard-button {
+        left: 190vw;
+        top: 80vh;
+    }
+
+    .solve-button {
+        left: 235vw;
+        top: 80vh;
+    }
+}
+
+@media (max-height: 500px) {
+    .sudoku { 
+        margin-top: 17vh;
+        margin-left: 26.5vw;
+    }
+    
+    .container {
+        margin-left: 22vw;
+    }
+
+    .sudoku-button { 
+        left: 6vw;
+        font-size: 1.2vw;
+    }
 }

@@ -3,6 +3,6 @@ import './ImageTranslation.css'
 
 export default function ImageTranslation() {
   return (
-    <div className='imagetranslation'>Sorry, this project isn't ready yet. Check back later!</div>
+    <p className='image-translation'>Sorry, this project isn't ready yet. Check back later!</p>
   )
 }

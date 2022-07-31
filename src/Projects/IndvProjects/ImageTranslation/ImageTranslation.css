@@ -1,5 +1,12 @@
-.imagetranslation {
+.image-translation {
     font-size: 50px;
     margin-left: 30%;
-    margin-top: 400px;
+    margin-top: 40vh;
+    margin-bottom: 40vh;
+}
+
+@media (max-width: 800px) {
+    .image-translation {
+        margin-top: 20vh;
+    }
 }
