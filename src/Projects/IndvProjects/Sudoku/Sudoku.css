@@ -102,13 +102,13 @@
     .container {
         table-layout: fixed;
         width: 250vw;
-        margin-left: 35vw;
+        margin-left: 28vw;
     }
 
     .sudoku-desc {
         font-size: 3vw;
         padding-right: 10vw;
-        width: 50vw;
+        width: 60vw;
     }
 
     .generate-grid {

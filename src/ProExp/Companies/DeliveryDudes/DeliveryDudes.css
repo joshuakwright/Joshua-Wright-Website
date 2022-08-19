@@ -26,16 +26,18 @@
 
 @media (max-width: 800px) {
     .dd-picture {
-        margin-left: 40%;
+        margin-left: 34%;
     }
 
     .dd-company {
-        margin-left: 43vw;
+        margin-left: 39%;
     }
 
     .dd-text {
-        margin-left: 35%;
+        margin-left: 30%;
         padding-right: 5vw;
+        text-align: left;
+        font-size: medium;
     }
 }
 

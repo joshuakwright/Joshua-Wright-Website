@@ -26,16 +26,18 @@
 
 @media (max-width: 800px) {
     .cisco-picture { 
-        margin-left: 38vw;
+        margin-left: 33%; 
     }
 
     .cisco-company {
-        margin-left: 50.5%;
+        margin-left: 45%;
     }
 
     .cisco-text {
-        margin-left: 35%;
+        margin-left: 30%; 
         padding-right: 5vw;
+        text-align: left;
+        font-size: medium;
     }
 }
 

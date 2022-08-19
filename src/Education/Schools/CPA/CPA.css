@@ -26,16 +26,18 @@
 
 @media (max-width: 800px) {
     .cpa-picture {
-        margin-left: 39%;
+        margin-left: 34%;
     }
 
     .cpa-school {
-        margin-left: 37%;
+        margin-left: 34%;
     }
 
     .cpa-text {
-        margin-left: 34%;
+        margin-left: 30%;
         padding-right: 5vw;
+        text-align: left;
+        font-size: medium;
     }
 }
 

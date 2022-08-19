@@ -26,12 +26,18 @@
 
 @media (max-width: 800px) {
     .pilot-picture {
-        margin-left: 39%;
+        margin-left: 32%;
+    }
+
+    .pilot-company {
+        margin-left: 46%;
     }
 
     .pilot-text {
-        margin-left: 34%;
+        margin-left: 30%; 
         padding-right: 5vw;
+        text-align: left;
+        font-size: medium;
     }
 }
 

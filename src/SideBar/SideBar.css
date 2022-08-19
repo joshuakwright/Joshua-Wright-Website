@@ -9,6 +9,7 @@
     padding-left: env(safe-area-inset-left);
     background-color: rgb(32, 32, 32);
     overflow-x: hidden;
+    font-size: small;
 }
 
 /* Design taken from CSS Scan by Tailwind*/
@@ -60,7 +61,11 @@
 
 @media (max-width: 800px) {
   .side-bar {
-    width: 27vw;
+    width: 20vw;
+  }
+
+  .buttons {
+    font-size: small;
   }
 }
 
